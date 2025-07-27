@@ -17,7 +17,7 @@ function BlogModal({isOpen, onClose, onSubmit, handlePost, selectedPost, error})
         </DialogTitle>
           <DialogContent>
           <Grid container spacing={2} my={2}>
-            <Grid item xs={12}>
+            <Grid item xs={12} sx={{ width: '100%' }}>
               <TextField
                 label="Title"
                 fullWidth
@@ -27,7 +27,7 @@ function BlogModal({isOpen, onClose, onSubmit, handlePost, selectedPost, error})
                 helperText={error.title}
               />
             </Grid>
-            <Grid item xs={12}>
+            <Grid item xs={12} sx={{ width: '100%' }}>
               <TextField
                 label="Author"
                 fullWidth
@@ -37,7 +37,7 @@ function BlogModal({isOpen, onClose, onSubmit, handlePost, selectedPost, error})
                 helperText={error.author}
               />
             </Grid>
-            <Grid item xs={12}>
+            <Grid item xs={12} sx={{ width: '100%' }}>
               <TextField
                 label="Content"
                 fullWidth
