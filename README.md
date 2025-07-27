@@ -10,7 +10,7 @@
 ### 1. Clone the repository
 
 ```bash
-git clone [https://github.com/gautam711/kilowatt-assignment.git](https://github.com/gautam711/kilowatt-assignment.git)
+git clone [https://github.com/gautam711/kilowatt-assignment](https://github.com/gautam711/kilowatt-assignment)
 cd kilowatt-assignment
 ```
 
